@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+
+        .p1 {
+  font-family: "Times New Roman", Times, serif;
+}
+.p2 {
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+body {
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: black;">
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#photos">-Photos</a></li>
+        <li><a href="#classes">-Classes</a></li>
+        <li><a href="#hobbies">-Hobbies</a></li>
+      </ul>
+
+    <div style="margin-left:25%;padding:1px 16px;height:1000px;"> 
+<div id="home" style="background-color: rgb(255, 127, 234);"><h1><p class="p1"> Name & Intersets </p></h1></div>
+
+<table> 
+    <tr style="background-color: aquamarine;"> 
+        <td> Name:</td>
+        <td> Brandon Stocke</td>
+    </tr>
+
+    <tr style="background-color: rgb(255, 127, 234);">
+       <div id="photos"> <td> Photo:</td> 
+        <td> <img src="images/me.jpg" alt= "" width="250" height="320"> </td></div>
+    </tr>
+    <tr style="background-color: aquamarine;">
+        <div id="classes"><td> Courses 2022: </td>
+        <td> Advanced Programming, Sever management, Microcomputing, senior project</td></tr></div>
+    </tr>
+
+    <tr style="background-color: rgb(255, 127, 234);">
+        <div id="hobbies">
+        <td> Intersets: </td>
+        <td> Video Games, Music (ranges from metal to pop), History, tabletop wargames(regin in hell)</td></div>
+    </tr>
+    
+    <tr style="background-color: aquamarine;">
+        <td> Contact Information: </td>
+        <td> Email: bstock@pointpoark.edu Phone number: (724) 624 2279 Social Media: Discord (Flash.exe has Stopped #0574)</td>
+    </tr>
+    <tr>
+        <p class="p2" style="color: azure;"> This is a paragraph used for text in this assignment </p>
+    </tr>
+    
+    <div style="color: azure;"> This is a div sectioning off the homepage</div>
+
+</table>
+
+</div>
+</body>
+</html>
